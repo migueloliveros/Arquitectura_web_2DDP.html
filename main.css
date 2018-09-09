@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: green;
+    font-family: 'Menlo', monospace;
+}
+
+a{
+    transition: ease-in-out .5s;
+    font-size: 24px;
+}
+
+a:link, a:visited{
+    color: red;
+}
+
+a:hover, a:active{
+    color: yellow;
+}
+
+.special-paragraph{
+    color: greenyellow;
+    font-size: 23px;
+}
+
+a.link-image{
+    font-size: 0;
+}
+
+a.link-image > img{
+    transition: ease-in-out .5s;
+}
+
+a.link-image:hover > img{
+    box-shadow: 0px 5px 10px green;
+    filter: blur(10px);
+}
+
+.image-blur-anim {
+    transition: ease-in-out 1s;
+}
+
+.image-blur-anim:hover {
+    filter: blur(2px) hue-rotate(90deg);
+}
+.image-anim:hover {
+    filter: sepia(70%);
+}
+.image-anim {
+    transition: ease-in-out 1s;
+}
